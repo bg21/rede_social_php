@@ -19,22 +19,20 @@
 
 		<div class="logo-chamada-login">
 		
-			<img src="<?php echo INCLUDE_PATH_STATIC ?>images/logodanki.svg" />
+			<img src="<?php echo INCLUDE_PATH_STATIC; ?>images/logodanki.svg" />
 			<p>Conecte-se com seus amigos e expanda seus aprendizados com a rede social Danki Code.</p>
 			
 
 		</div><!--logo-chamada-login-->
 
 		<div class="form-login">
-				<h3 style="text-align: center;">Crie sua Conta!</h3>
 				<form method="post">
-					<input type="text" name="nome" placeholder="Seu nome...">
-					<input type="text" name="email" placeholder="E-mail...">
+					<input type="text" name="email" placeholder="Login...">
 					<input type="password" name="senha" placeholder="Senha...">
-					<input type="submit" name="acao" value="Criar Conta!">
-					<input type="hidden" name="registrar" value="registrar" />
+					<input type="submit" name="acao" value="Logar!">
+					<input type="hidden" name="login">
 				</form>
-				
+				<p><a href="<?php echo INCLUDE_PATH ?>registrar">Criar Conta</a></p>
 		</div><!--form-login-->
 
 	</div>

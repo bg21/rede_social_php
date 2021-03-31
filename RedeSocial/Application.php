@@ -6,7 +6,7 @@
 
         private function setApp(){
             $loadName = "RedeSocial\Controllers\\";
-            $url = explode('/', isset($_GET['url']));
+            $url = explode('/', @$_GET['url']);
 
             if($url[0] == ''){
                 //se a url for vazia

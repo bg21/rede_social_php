@@ -32,7 +32,7 @@
 					<input type="submit" name="acao" value="Logar!">
 					<input type="hidden" name="login">
 				</form>
-				<p><a href="<?php echo INCLUDE_PATH ?>registrar">Criar Conta</a></p>
+				<p><a href="registrar">Criar Conta</a></p>
 		</div><!--form-login-->
 
 	</div>
